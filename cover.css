@@ -1,0 +1,130 @@
+
+
+@font-face {
+	font-family: "BebasNeue-Regular";
+	src: url("../fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: LeagueGothic-Regular-VariableFont_wdth;
+	src: url("../fonts/LeagueGothic-Regular-VariableFont_wdth.ttf") format("truetype");
+}
+
+
+.rectangle {
+	width: 600px;
+	height: 950px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%,-50%);
+	background: floralwhite;
+}
+
+.square {
+	width: 570px;
+	height: 750px;
+	left: -0.09%;
+	bottom: -19.5%;
+	position: relative;
+	background: black;
+
+}
+@keyframes line_rotate {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+.line {
+	width: 100px;
+	height: 400px;
+	position: absolute;
+	left: 60%;
+	bottom:33%;
+	background: floralwhite;
+	animation: line_rotate 5s infinite linear;
+	transform-origin: 30% 70%;
+	
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	position: absolute;
+	left: 53%;
+	bottom: 7%;
+	background: red;
+}
+
+
+@keyframes title_move {
+	0% { top: 0px; color: black; }
+	100% { top: 200px; color: red; }
+}
+
+.title {
+	font-family: "BebasNeue-Regular";
+	font-size: 5.3em;
+	height: 20px;
+	width: 570px;
+	color: black;
+	position: absolute;
+	left: 7%;
+	bottom: 95%;
+	animation: title_move 2s infinite alternate cubic-bezier(1,0,0,1);
+}
+
+.header {
+	font-family: "LeagueGothic-Regular-VariableFont_wdth";
+	font-size: 2.3em;
+	height: 20px;
+	color: black;
+	position: absolute;
+	left: 7%;
+	bottom: 87%;
+
+}
+
+.authors {
+	font-family: "LeagueGothic-Regular-VariableFont_wdth";
+	font-size: 3em;
+	height: 20px;
+	color: floralwhite;
+	position: absolute;
+	left: 4%;
+	bottom: 20%;
+} 
+
+.author-1 {
+	font-family: "LeagueGothic-Regular-VariableFont_wdth";
+	font-size: 3em;
+	height: 20px;
+	color: floralwhite;
+	position: absolute;
+	left: 11%;
+	bottom: 15%;
+}
+
+.author-2 {
+	font-family: "LeagueGothic-Regular-VariableFont_wdth";
+	font-size: 3em;
+	height: 20px;
+	color: floralwhite;
+	position: absolute;
+	left: 20%;
+	bottom: 10%;
+}
+
+/*.container {
+	width: 700px;
+	height: 20px;
+	position: absolute;
+}*/
+
+
+
+
+
+
+
